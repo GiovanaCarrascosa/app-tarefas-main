@@ -1,0 +1,47 @@
+.button, .form {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.form{
+
+    width: 500px;
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.button{
+
+    background-color: rgb(255, 157, 242);
+    text-align: center;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    border-radius: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+
+.input{
+
+    width: 250px;
+    background-color: rgb(230, 171, 225);
+
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
+
+.input placeholder{
+
+    text-align: center;
+    font-size: medium;
+    color: white;
+}
