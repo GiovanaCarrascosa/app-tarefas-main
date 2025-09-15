@@ -60,7 +60,7 @@ export default function TaskItem({
                             className={styles.delete}
                     >
 
-                        {isCompletedList ? "" : ""}
+                        {isCompletedList ? "✔" : "✖"}
 
                     </button>
                 </div>
