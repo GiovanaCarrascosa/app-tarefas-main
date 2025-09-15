@@ -1,5 +1,6 @@
 .relogioContainer{
-    background-color: rgb(255, 191, 118);
+    width: 550px;
+    background-color: #ffa6ff;
     padding: 30px 50px;
     border-radius: 15px;
     box-shadow: 0 8px 15px rgba(114, 59, 86, 0.3);

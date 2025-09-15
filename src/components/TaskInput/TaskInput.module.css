@@ -7,7 +7,7 @@
 
 .form{
 
-    width: 500px;
+    width: 550px;
     background-color: white;
     text-align: center;
     padding: 30px;
@@ -18,21 +18,20 @@
 
 .button{
 
-    background-color: rgb(255, 157, 242);
+    background-color: rgb(220, 165, 213);
     text-align: center;
     padding: 15px;
     color: rgb(0, 0, 0);
     font-size: large;
     border-radius: 12px;
-    margin-top: 20px;
-    cursor: pointer;
+    cursor: pointer; 
 
 }
 
 .input{
 
     width: 250px;
-    background-color: rgb(230, 171, 225);
+    background-color: rgb(220, 165, 213);
 
     text-align: center;
     font-size: medium;
