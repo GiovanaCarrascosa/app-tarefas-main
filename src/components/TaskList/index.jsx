@@ -1,5 +1,5 @@
 import TaskItem from "../TaskItem"
-import styles from "./TaskItem.module.css"
+import styles from "../TaskItem/TaskItem.module.css"
 
 export default function TaskList({
   tasks,

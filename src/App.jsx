@@ -60,7 +60,7 @@ function App() {
   }, [tasks])
 
   return (
-    <div>
+    <div className={styles.container}>
       <Header/>
       <Relogio/>
       <TaskInput addTask={addTask}/>
@@ -68,8 +68,45 @@ function App() {
 
     <div className={styles.listsContainer}>
 
-      
+        <div className={styles.pending}>
+
+            <h2>Tarefas Pendentes</h2>
+
+            {/* componente que irá exibir as tarefas */}
+            <tackList
+
+                tasks={tasks.filter(task => !task.completed)}
+                toggleTask={toggleTask}
+
+            />
+
+        </div>
+
+        <div className={styles.completed}>
+
+           <h2>Tarefas Concluídas</h2>
+
+           <tackList
+
+              tasks={tasks.filter(task => task.completed)}
+
+              //desativa toggle 
+              toggleTask={() => {}}
+
+              //restaura a tarefa 
+              deleteTask={restoreTask}
+
+              //desativa edição 
+              editTask={() => {}}
+              
+              //flag para TaskItem
+              isCompletedList={true}
+            />
+
+        </div>
+
     </div>
+
     </div>
   )
 }
